@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,22 +7,17 @@
     <meta name="description" content="Comprehensive Student Leave Management System for tracking attendance, managing leave requests, and sending notifications to students, parents, and staff." />
     <meta name="author" content="SLMS" />
 
+    <!-- Open Graph / Social Meta -->
     <meta property="og:title" content="SLMS - Student Leave Management System" />
     <meta property="og:description" content="Track attendance, manage leave requests, and stay informed with our comprehensive student leave management platform." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <!-- Start Single Page Apps for GitHub Pages -->
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
+
+    <!-- Optional: SPA redirect script for old browsers (not needed if using HashRouter) -->
+    <script>
       (function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
@@ -34,11 +29,14 @@
         }
       }(window.location))
     </script>
-    <!-- End Single Page Apps for GitHub Pages -->
   </head>
 
   <body>
+    <!-- React root -->
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Vite will automatically inject the compiled JS during build -->
+    <!-- Do NOT reference /src/main.tsx directly -->
   </body>
 </html>
+
