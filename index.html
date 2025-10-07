@@ -4,39 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SLMS - Student Leave Management System</title>
-    <meta name="description" content="Comprehensive Student Leave Management System for tracking attendance, managing leave requests, and sending notifications to students, parents, and staff." />
+    <meta name="description" content="Comprehensive Student Leave Management System for tracking attendance, managing leave requests, and notifications." />
     <meta name="author" content="SLMS" />
-
-    <!-- Open Graph / Social Meta -->
-    <meta property="og:title" content="SLMS - Student Leave Management System" />
-    <meta property="og:description" content="Track attendance, manage leave requests, and stay informed with our comprehensive student leave management platform." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <!-- Optional: SPA redirect script for old browsers (not needed if using HashRouter) -->
-    <script>
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
   </head>
-
   <body>
-    <!-- React root -->
     <div id="root"></div>
-
-    <!-- Vite will automatically inject the compiled JS during build -->
-    <!-- Do NOT reference /src/main.tsx directly -->
+    <!-- Vite injects JS automatically -->
   </body>
 </html>
-
