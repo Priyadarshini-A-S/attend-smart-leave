@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Priyadarshini-A-S.github.io/slms", 
+  "homepage": "https://Priyadarshini-A-S.github.io/attend-smart-leave", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
